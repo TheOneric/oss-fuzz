@@ -44,3 +44,5 @@ cp fuzz/fuzz_ossfuzz $OUT/libass_fuzzer
 cp fuzz/ass.dict $OUT/ass.dict
 
 cp $SRC/*.options $OUT/
+
+echo "Hi."

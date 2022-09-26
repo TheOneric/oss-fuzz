@@ -22,3 +22,5 @@ RUN git clone --depth 1 https://github.com/libass/libass.git
 RUN git clone --depth 1 https://github.com/harfbuzz/harfbuzz.git
 
 COPY build.sh *.options $SRC/
+
+RUN echo "Hi"
